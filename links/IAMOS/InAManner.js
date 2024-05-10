@@ -1,14 +1,14 @@
 var nImgNum_pg_7 = 0;
       wp_imgArray_pg_7 = new Array();
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m1.jpg", 739, 493, "links/IAMOS/wpimages/m1.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m2.jpg", 739, 493, "links/IAMOS/wpimages/m2.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m3.jpg", 739, 493, "links/IAMOS/wpimages/m3.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m4.jpg", 739, 493, "links/IAMOS/wpimages/m4.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m5.jpg", 739, 493, "links/IAMOS/wpimages/m5.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m6.jpg", 739, 493, "links/IAMOS/wpimages/m6.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m7.jpg", 739, 493, "links/IAMOS/wpimages/m7.jpg", "");
-      wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m8.jpg", 739, 493,     "links/IAMOS/wpimages/m8.jpg", "");
-      wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("links/IAMOS/wpimages/m9.jpg", 739, 493,     "links/IAMOS/wpimages/m9.jpg",  "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m1.jpg", 739, 493, "./wpimages/m1.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m2.jpg", 739, 493, "./wpimages/m2.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m3.jpg", 739, 493, "./wpimages/m3.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m4.jpg", 739, 493, "./wpimages/m4.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m5.jpg", 739, 493, "./wpimages/m5.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m6.jpg", 739, 493, "./wpimages/m6.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m7.jpg", 739, 493, "./wpimages/m7.jpg", "");
+      wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m8.jpg", 739, 493,     "./wpimages/m8.jpg", "");
+      wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/m9.jpg", 739, 493,     "./wpimages/m9.jpg",  "");
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
