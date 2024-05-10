@@ -448,7 +448,7 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  padding: 20px 5px;
+  padding: 80px 5px;
   max-height: 100vh;
   overflow: auto;
   box-sizing: border-box;
