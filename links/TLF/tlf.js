@@ -1,7 +1,7 @@
 var nImgNum_pg_7 = 0;
       wp_imgArray_pg_7 = new Array();
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/language.png", 739, 493, "wpimages/language.png", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/tlf.png", 739, 493, "wpimages/tlf.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/language.png", 739, 493, "./wpimages/language.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/tlf.png", 739, 493, "./wpimages/tlf.png", "");
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
