@@ -11,7 +11,7 @@ $('#wp_gallery_pg_7').wpgallery({
 		imageArray: wp_imgArray_pg_7,
 		nTotalImages: nImgNum_pg_7,
 		nGalleryLeft: 24,
-		nGalleryTop: 370,
+		nGalleryTop: 217,
 		nGalleryWidth: 750,
 		nGalleryHeight:600,
 		nImageDivTop: 0,
