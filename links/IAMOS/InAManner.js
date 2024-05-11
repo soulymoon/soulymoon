@@ -91,3 +91,4 @@ $('#wp_gallery_pg_7').wpgallery({
 		strThumbRewindToolTip: 'Reverse',
 		strThumbForwardToolTip: 'Forward'
       });
+      });
