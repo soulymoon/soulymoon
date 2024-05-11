@@ -15,12 +15,12 @@ $('#wp_gallery_pg_7').wpgallery({
 		imageArray: wp_imgArray_pg_7,
 		nTotalImages: nImgNum_pg_7,
 		nGalleryLeft: 24,
-		nGalleryTop: 217,
+		nGalleryTop: 300,
 		nGalleryWidth: 739,
 		nGalleryHeight: 593,
 		nImageDivTop: 0,
-		nImageDivWidth: 650,
-		nImageDivHeight: 550,
+		nImageDivWidth: 500,
+		nImageDivHeight: 600,
 		nControlBarStyle: 0,
 		nControlBarExternalTop: 10,
 		bNavBarOnTop: true,
@@ -90,5 +90,4 @@ $('#wp_gallery_pg_7').wpgallery({
 		strForwardToolTip: 'Forward',
 		strThumbRewindToolTip: 'Reverse',
 		strThumbForwardToolTip: 'Forward'
-      });
       });
