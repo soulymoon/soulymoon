@@ -454,19 +454,10 @@ figcaption {
   box-sizing: border-box;
 }
 .content {
-  margin-top: -170px;  
+  margin-top: -130px;  
 }
 .content-1 {
-  margin-top: -170px;  
-}
-figure:nth-of-type(4) {
-    position: relative;
-    bottom: 50px; /* Adjust this value as needed */
+  margin-top: -130px;  
 }
 
-/* Adjust the position of "Movement Robotics" */
-.content figure {
-    position: relative;
-    bottom: 50px; /* Adjust this value as needed */
-}
  
