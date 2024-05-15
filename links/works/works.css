@@ -459,4 +459,14 @@ figcaption {
 .content-1 {
   margin-top: -170px;  
 }
+figure:nth-of-type(4) {
+    position: relative;
+    bottom: 50px; /* Adjust this value as needed */
+}
+
+/* Adjust the position of "Movement Robotics" */
+.content figure {
+    position: relative;
+    bottom: 50px; /* Adjust this value as needed */
+}
  
