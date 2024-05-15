@@ -456,8 +456,8 @@ figcaption {
 .content {
   margin-top: -130px;  
 }
-.content .sam 2{
-  bottom: 50px;
+.content.sam.2 {
+  margin-top: -130px;
 }
 
 
