@@ -1,464 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
-
-
 body {
-  font-family: "Roboto Mono", monospace;
-  font-size: 20px;
-  color: #ffffff;
-  margin: 0px;
-  line-height: 125%;
-  background-color: #000418;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #7ff608;
-  /* cursor: url(../media/GEN/hover-cursor.png), auto; */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
 }
 
-#email-me:hover {
-  color: #0d65d8;
+#myLinks a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
-h1,
-h2,
-h3,
-nav {
-  font-family: "Roboto Mono", normal;
-  line-height: 150%;
-  opacity: 50%;
-}
-
-h1 {
-  font-size: 30px;
-  margin: 0px;
-}
-
-h2,
-nav > a {
-  font-size: 15px;
-}
-
-h3 {
-  font-size: 15px;
-}
-p{
-  font-size: 12px;
-  font-weight: 100;
-}
-
-img {
-  max-width: 100%;
-}
-
-header {
-  height: 64px;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  background-color: rgba(160, 160, 160, 0.4);
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  opacity: 90%;
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  z-index: 100000;
-}
-
-nav {
-  margin: 10px 0px 0px 50px;
-}
-
-nav a {
-  margin-right: 24px;
-  text-decoration: none;
-  color: #d4f8b0;
-  transition: 0.4s;
-}
-
-nav a:hover {
-  color: #b3fece;
-}
-
-section {
-  display: grid;
-  width: 91%;
-  margin: 96px auto 0 auto;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px;
-  align-items: baseline;
-  grid-auto-flow: dense;
+#myLinks a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 #logotype {
-  margin: 8px 64px 0px 0px;
-  border: #eaffd3 solid 2px;
-  border-radius: 30px;
-  padding: 0px 12px 0px 12px;
-  color: #ffffff;
-  font-weight: 200;
-}
-
-#about-page {
-  background-image: url(../media/GEN/IR6.jpg);
-  background-size: cover;
-}
-
-#about-page #about {
-  border: #ffffff solid 2px;
-  border-radius: 15px;
-  padding: 0px 8px 0px 8px;
-}
-
-#about-page .icon {
-  color: #ffffff;
-}
-
-
-#selected-page #selected {
-  border: #ffffff solid 2px;
-  border-radius: 15px;
-  padding: 16px 8px 0px 8px;
-}
-
-
-footer {
-  position: fixed;
-  top: 95%;
-  left: 85%;
-  width: 20%;
-  font-style: italic;
-  opacity: 70%;
-  font-family: "Share Tech Mono", monospace;
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-}
-
-.inline {
-  display: inline;
-}
-
-#bio {
-  align-items: end;
-}
-
-
-#contact {
-  grid-column: 2 / span 3;
-  background: rgba(43, 27, 73, 0.4);
-  opacity: 80%;
-  display: flex;
-  gap: 48px;
-  padding: 12px 48px 6px 48px;
-  margin-bottom: 128px;
-  border-radius: 50px;
-}
-
-#contact a {
-  width: 100%;
-}
-
-#contact img {
-  transition: 0.6s;
-}
-
-#contact img:hover {
-  transform: scale(1.1);
-}
-
-#cv-page a {
-  color: #31283f;
-  transition: 0.4s;
-}
-
-#cv-page a:hover {
-  color: #3e7904;
-}
-
-#cv-heading > * {
-  margin: 0px;
-}
-
-#cv-text {
-  width: 91%;
-  margin: 96px auto 64px auto;
-  color: #17061d;
-}
-
-#cv-year {
-  margin-right: 10px;
-}
-
-
-#selected-page p {
-  color: #024f1e;
-  line-height: 120%;
-  font-size: 18px;
-}
-
-#selected-page #image-subgrid {
-  grid-column: 4 / span 9;
-}
-
-#selected-page section {
-  width: 96%;
-}
-
-#image-subgrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 8px;
-  grid-auto-flow: dense;
-  margin-bottom: 64px;
-}
-
-.art_title {
-  text-decoration: underline;
-  font-style: italic;
-}
-
-.portrait {
-  grid-row: span 2;
-}
-
-.large {
-  grid-column: span 2;
-  grid-row: span 2;
-}
-
-.img {
-  display: flex;
-}
-
-iframe {
-  width: 100%;
-  height: 100%;
-}
-
-iframe #player {
-  width: 100%;
-  height: 100%;
-}
-
-.txt {
-  position: fixed;
-  top: 80px;
-  text-align: justify;
-  max-height: 85vh;
-  overflow-y: scroll;
-  will-change: transform;
-  z-index: 90;
-  width: 22.5%;
-}
-
-
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-#siteseal {
-  position: fixed;
-  opacity: 80%;
-  bottom: 0px;
-  left: 3px;
-  width: 100px;
-}
-
-a.icon {
-  display: none;
-}
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 1100px) {
-  nav a {
+    color: white;
     font-size: 24px;
-    margin-right: 12 px;
-  }
-  h1 {
-    font-size: 32px;
-  }
-  #image-subgrid {
-    grid-template-columns: 1fr;
-  }
-
-  .portrait {
-    grid-row: span 1;
-  }
-
-  .large {
-    grid-column: span 1;
-    grid-row: span 1;
-  }
-
-  #about-page {
-    background-size: cover;
-  }
-
-  #contact {
-    grid-column: 5 / span 4;
-    padding: 16px 24px 16px 24px;
-    gap: 24px;
-  }
-
-  footer {
-    left: 78%;
-    width: 25%;
-  }
+    margin-right: 20px;
 }
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 773px) {
-  #contact {
-    grid-column: 4 / span 6;
-  }
-  #logotype {
-    margin: 12px 0px 0px 0px;
-    position: absolute;
-    right: 16px;
-  }
-  .entry {
-    margin-top: 2%;
-  }
-
-  #myLinks {
+.content-wrapper {
     display: flex;
-    transition: opacity 0.25s;
-    gap: 16px;
-    margin: 64px 0px 0px 16px;
-  }
-
-  #nav-bar {
-    transition-property: height;
-    transition-duration: 0.5s;
-  }
-
-  nav a {
-    margin-right: 0px;
-  }
-
-  footer {
-    left: 5%;
-    width: 45%;
-  }
-
-  #selected-page footer p {
-    font-size: 16px;
-  }
-
-  #selected-page #image-subgrid {
-    grid-column: 1 / span 12;
-  }
-
-  #description div {
-    padding: 0px 8px 0px 8px;
-    width: 75%;
-    text-align: justify;
-    margin: 32px 0px 32px 0px;
-    background-color: rgba(139, 139, 139, 0.7);
-    border-radius: 15px;
-  }
-
-  #mobile_intro_txt {
-    top: 16%;
-  }
-
-  .closebtn {
-    background-color: rgba(139, 139, 139, 0.7);
-    border-radius: 15px;
-    position: fixed;
-    top: 10%;
-    z-index: 99;
-    width: 8%;
-    color: #f2f2f2;
-    text-align: center;
-    font-size: 40px;
-    padding-right: 0.5%;
-  }
-
-  #description p {
-    color: #f2f2f2;
-  }
-
-  #description {
-    grid-column: 2 / span 10;
-  }
-
-  #selected-page section {
-    margin-top: 40px;
-  }
-
-  a.icon {
-    display: block;
-    position: absolute;
-    left: 16px;
-    top: 16px;
-    color: #0d65d8;
-    width: 10%;
-    font-size: 170%;
-    margin: 0px 0px 0px 8px;
-  }
-
-  #siteseal {
-    right: 3px;
-    left: auto;
-  }
-}
-/* grid display */
-/*.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns 
-    gap: 5px; /* Space between columns and rows 
-    padding: 20px;
-    box-sizing: border-box;
-    max-height: 100vh; /* Limit height to the viewport's height 
-    overflow: auto; /* Allows scrolling inside the gallery if needed
+    margin: 20px;
 }
 
-figure {
-    margin: 0; /* Removes default margin from figures
+.left-column {
+    flex: 1;
+    max-width: 250px;
 }
 
-.thumb img {
-    width: 80%; /* Responsive image width 
-    height: auto; /* Maintain aspect ratio 
-    font-family: 'Roboto Mono', normal;
-}*
-
-figcaption {
-    margin-top: 20px; /* Space above caption
-    font-family: 'Roboto Mono', normal;
-}
-/* tlf/digital samadhi position up */
-/* Removes default margin from figures 
-.content-block {
-  margin-top: -170px;  /* Moves the content up by 10px 
-} 
-.content-block2 {
-  margin-top: -170px;  
-}*/
-
-.container { /* Assuming .gallery is within a container div */
-  padding-left: 50px; /* Adjust as needed */
+.works-list {
+    list-style-type: none;
+    padding: 0;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  padding: 80px 5px;
-  max-height: 100vh;
-  overflow: auto;
-  box-sizing: border-box;
-}
-.content {
-  margin-top: -130px;  
-}
-.content.sam.2 {
-  margin-top: -130px;
+.works-list li {
+    margin-bottom: 15px;
 }
 
+.works-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
 
- 
+.works-list a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
