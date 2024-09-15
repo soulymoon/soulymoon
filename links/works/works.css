@@ -1,5 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0px;
+  line-height: 125%;
+  background-color: #000418;
+}
     margin: 0;
     padding: 0;
 }
