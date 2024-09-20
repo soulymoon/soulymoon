@@ -4,8 +4,9 @@ var nImgNum_pg_7 = 0;
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/3.5.png", 739, 493, "./wpimages/3.5.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/3.png", 739, 493, "./wpimages/3.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/4.jpg", 739, 493, "./wpimages/4.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/4.png", 739, 493, "./wpimages/4.png", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/5.jpg", 739, 493, "./wpimages/5.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/6.jpg", 739, 493, "./wpimages/6.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/7.jpg", 739, 493, "./wpimages/7.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/8.jpg", 739, 493, "./wpimages/8.jpg", "");
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
@@ -16,8 +17,8 @@ $('#wp_gallery_pg_7').wpgallery({
 		nGalleryWidth: 739,
 		nGalleryHeight: 593,
 		nImageDivTop: 0,
-		nImageDivWidth: 500,
-		nImageDivHeight: 600,
+		nImageDivWidth: 800,
+		nImageDivHeight: 640,
 		nControlBarStyle: 0,
 		nControlBarExternalTop: 10,
 		bNavBarOnTop: true,
