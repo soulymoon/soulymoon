@@ -13,7 +13,7 @@ $('#wp_gallery_pg_7').wpgallery({
 		imageArray: wp_imgArray_pg_7,
 		nTotalImages: nImgNum_pg_7,
 		nGalleryLeft: 24,
-		nGalleryTop: 300,
+		nGalleryTop: 200,
 		nGalleryWidth: 739,
 		nGalleryHeight: 593,
 		nImageDivTop: 0,
