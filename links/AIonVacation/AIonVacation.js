@@ -9,8 +9,8 @@ var nImgNum_pg_7 = 0;
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_6.png", 739, 493, "wpimages/AI_6.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_7.png", 739, 493, "wpimages/AI_7.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_8.png", 739, 493, "wpimages/AI_8.png", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_9.jpg", 739, 493, "wpimages/AI_9.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_10.jpg", 739, 493, "wpimages/AI_10.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_9.png", 739, 493, "wpimages/AI_9.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_10.png", 739, 493, "wpimages/AI_10.png", "");
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
