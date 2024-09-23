@@ -1,7 +1,6 @@
 var nImgNum_pg_7 = 0;
       wp_imgArray_pg_7 = new Array();
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_1.png", 739, 493, "wpimages/AI_1.png", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_2-1.png", 739, 493, "wpimages/AI_2-1.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_4.png", 739, 493, "wpimages/AI_4.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_5.png", 739, 493, "wpimages/AI_5.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("wpimages/AI_6.png", 739, 493, "wpimages/AI_6.png", "");
