@@ -1,7 +1,14 @@
 var nImgNum_pg_7 = 0;
       wp_imgArray_pg_7 = new Array();
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/language.png", 739, 493, "./wpimages/language.png", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/tlf.png", 739, 493, "./wpimages/tlf.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/language.png", 739, 493, "./wpimages/language.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF-4.jpg", 739, 493, "./wpimages/Aizhan_TLF-4.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF-5-1.jpg", 739, 493, "./wpimages/Aizhan_TLF-5-1.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF.jpg", 739, 493, "./wpimages/Aizhan_TLF.jpg", "");
+	  
+	  
+	  
+
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
