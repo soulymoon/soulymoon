@@ -1,10 +1,9 @@
 var nImgNum_pg_7 = 0;
       wp_imgArray_pg_7 = new Array();
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff2.png", 739, 493, "./wpimages/m2.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff3.png", 739, 493, "./wpimages/m3.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff4.png", 739, 493, "./wpimages/m4.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff5.png", 739, 493, "./wpimages/m5.jpg", "");
-	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ffvideo.png", 739, 493, "./wpimages/m7.jpg", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff3.png", 739, 493, "./wpimages/ff3.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff4.png", 739, 493, "./wpimages/ff4.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/ff5.png", 739, 493, "./wpimages/ff5.png", "");
+	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/me_mic.jpg", 739, 493, "./wpimages/me_mic.jpg", "");
       $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
