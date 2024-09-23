@@ -5,17 +5,13 @@ var nImgNum_pg_7 = 0;
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF-4.jpg", 739, 493, "./wpimages/Aizhan_TLF-4.jpg", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF-5-1.jpg", 739, 493, "./wpimages/Aizhan_TLF-5-1.jpg", "");
 	  wp_imgArray_pg_7[nImgNum_pg_7++] = new wp_galleryimage("./wpimages/Aizhan_TLF.jpg", 739, 493, "./wpimages/Aizhan_TLF.jpg", "");
-	  
-	  
-	  
-
-      $(document).ready(function() {
+	  $(document).ready(function() {
       
 $('#wp_gallery_pg_7').wpgallery({
 		imageArray: wp_imgArray_pg_7,
 		nTotalImages: nImgNum_pg_7,
 		nGalleryLeft: 24,
-		nGalleryTop: 217,
+		nGalleryTop: 400,
 		nGalleryWidth: 739,
 		nGalleryHeight: 593,
 		nImageDivTop: 0,
