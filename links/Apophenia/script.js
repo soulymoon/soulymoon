@@ -12,14 +12,9 @@ var nImgNum_pg_7 = 0;
 $('#wp_gallery_pg_7').wpgallery({
 		imageArray: wp_imgArray_pg_7,
 		nTotalImages: nImgNum_pg_7,
-<<<<<<< HEAD
 		nGalleryLeft: 10,
 		nGalleryTop: 200,
-=======
-		nGalleryLeft: 24,
-		nGalleryTop: 200,
->>>>>>> 072556471346964cf1c247f510ac043664bccced
-		nGalleryWidth: 739,
+		nGalleryWidth: 80,
 		nGalleryHeight: 593,
 		nImageDivTop: 0,
 		nImageDivWidth: 800,
